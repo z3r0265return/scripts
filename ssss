@@ -1,4 +1,6 @@
-local tool = game.Players.LocalPlayer.Backpack
+local tool = Instance.new("Tool")
+local tooll = game.Players.LocalPlayer.Backpack
+tool.Parent = tooll
 tool.RequiresHandle = false
 
 tool.Activated:Connect(function()
